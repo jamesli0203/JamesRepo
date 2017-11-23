@@ -6,7 +6,16 @@ namespace UnitTestMusicService
     public class UnitTest1
     {
         [TestMethod]
-        public void TestMethod1()
+        public void TestAytistRepository()
+        {
+        }
+
+        [TestMethod]
+        public void TestAlbumRepository()
+        {
+        }
+        [TestMethod]
+        public void TestSongRepository()
         {
         }
     }
