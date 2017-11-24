@@ -30,8 +30,8 @@ namespace UnitTestMusicService
             });
 
             var employeeRepositoryMock = Init.MockArtistRepository;
-            employeeRepositoryMock.Setup
-                  (x => x.GetAll()).Returns(Task.FromResult(mockA));
+            //employeeRepositoryMock.Setup
+            //      (x => x.GetAll()).Returns(Task.FromResult(mockA.));
 
             var response = Init.TestHttpClient.GetAsync("api/Employees").Result;
 
